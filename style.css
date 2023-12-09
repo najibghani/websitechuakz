@@ -1,0 +1,234 @@
+/*laptop*/
+@media screen and (min-width: 1081px){
+    
+    body{
+        background-image: url(galaksi.jpg);
+        background-size: cover;
+        color:aliceblue ;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: medium;
+    }
+}
+    
+h1{
+    text-align: center;
+}
+
+.marquee{
+    border-bottom: 2px solid rgb(243, 240, 255);
+    margin-bottom: 2%;
+}
+
+.klik {
+       display: block;
+       text-align: center;
+
+
+}
+
+.klik button{
+    background-color: lightcyan;
+    color: black;
+    margin-bottom: 2%;
+    border-radius: 20px;
+    padding: 10px 40px;
+}
+
+audio {
+    width: 230px;
+    height: 30px;
+}
+
+.jadwal{
+    border: 2px dashed aliceblue;
+    background-color: aqua;
+    display:block;
+    width: 800px;
+    margin-bottom: 2%;
+}
+
+table{
+    background-color: blueviolet;
+}
+
+h3{
+    text-align: center;
+}
+
+#list-siswa {
+    border: 2px dashed aliceblue;
+    background-color: darkcyan;
+    width: 1170px;
+    height: 300px;
+    margin-bottom: 2%;
+    margin-left: 10%;
+    padding-left: 50px;
+}
+
+#list-siswa div {
+    display: inline-block;
+    border: 2px solid;
+    background-color: cadetblue;
+    width: 215px;
+    height: 170px;
+    text-align: center;
+}
+
+.jadwal-piket {
+    border: 2px dashed aliceblue;
+    background-color: #2b435772;
+    display: block;
+    height: 330px;
+    width: 1000px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+
+}
+
+#piket div {
+    border: 2px dashed aliceblue;
+    background-color: #1F5372;
+    display: inline-block;
+    text-align: left;
+    width: 180px;
+    height: 180px;
+}
+
+h4{
+    text-align: center;
+    border-bottom: 2px solid aliceblue;
+    margin-bottom: 2%;
+    margin-top: 1%;
+}
+
+h2{
+    text-align: center;
+
+
+
+}
+
+.video{
+    border: 2px dashed aliceblue;
+    background-color: #2b435772;
+    width: 1000px;
+    margin-bottom: 2%;
+}
+
+#kumpulan div{
+    display: inline-block;
+
+}
+
+#kumpulan div video{
+    border: 3px solid aliceblue;
+    width: 430px;
+    height: 242px;
+    text-align: center;
+}
+
+.foto{
+    border: 2px dashed aliceblue;
+    background-color: #27445c72;
+    width: 1000px;
+    height: 350px;
+
+}
+
+#fotkum div{
+    display: inline-block;
+
+}
+
+#fotkum div img{
+    border: 3px solid aliceblue;
+    width: 430px;
+    height: 242px;
+
+}
+
+/*tablet*/
+
+@media screen and (min-width:767px) and (max-width:1080px) {
+
+    body {
+        background-image: url(bgtab.jpg);
+        background-size: cover;
+        color: aliceblue;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+
+
+    .jadwal{
+        border: 2px dashed aliceblue;
+        background-color: #6200c359;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 700px;
+        margin-bottom: 2%;
+    }
+
+    table{
+        background-color: #3C096C;
+
+    }
+
+    #list-siswa{
+        border: 2px dashed aliceblue;
+        background-color: #6200c359;
+        width: 700px;
+        height: 480px;
+        margin-bottom: 2%;
+        padding-left: 1%;
+    }
+    
+    #list-siswa div{
+        border: 2px solid aliceblue;
+        background-color: #39096a;
+        display: inline-block;
+        width: 215px;
+        height: 170px;
+        margin-right: 1%;
+        margin-bottom: 13px;
+    }
+
+    .jadwal-piket {
+        border: 2px dashed aliceblue;
+        background-color: #6200c359;
+        width: 700px;
+        height: 540px;
+
+    }
+
+    #piket div {
+        background-color: #351650;
+        display: inline-block;
+        border: 2px solid;
+        width: 180px;
+        height: 200px;
+        margin-right: 1%;
+        margin-bottom: 13px;
+    }
+
+    .video {
+        border: 2px dashed aliceblue;
+        background-color: #6200c359;
+        width: 80%;
+        height: 90%;
+        margin-bottom: 2px;
+    }
+
+    .foto{
+        border: 2px dashed aliceblue;
+        background-color: #6200c359;
+        width: 80%;
+        height: 90%;
+        border-bottom: 2px;
+    }
+    
+    #fotkum div img {
+        margin-bottom: 2%;
+    }
+}
