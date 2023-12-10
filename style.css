@@ -19,20 +19,6 @@ h1{
     margin-bottom: 2%;
 }
 
-.klik {
-       display: block;
-       text-align: center;
-
-
-}
-
-.klik button{
-    background-color: lightcyan;
-    color: black;
-    margin-bottom: 2%;
-    border-radius: 20px;
-    padding: 10px 40px;
-}
 
 audio {
     width: 230px;
@@ -44,11 +30,12 @@ audio {
     background-color: aqua;
     display:block;
     width: 800px;
-    margin-bottom: 2%;
+    margin-bottom: 4%;
+    padding-bottom: 2%;
 }
 
 table{
-    background-color: blueviolet;
+    background-color: rgb(24, 125, 136);
 }
 
 h3{
@@ -60,9 +47,12 @@ h3{
     background-color: darkcyan;
     width: 1170px;
     height: 300px;
+    margin-top: 2%;
     margin-bottom: 2%;
-    margin-left: 10%;
-    padding-left: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    padding-right: 10px;
 }
 
 #list-siswa div {
@@ -72,6 +62,7 @@ h3{
     width: 215px;
     height: 170px;
     text-align: center;
+    
 }
 
 .jadwal-piket {
@@ -181,6 +172,7 @@ h2{
         width: 700px;
         height: 480px;
         margin-bottom: 2%;
+        margin-left: 2%;
         padding-left: 1%;
     }
     
@@ -229,6 +221,85 @@ h2{
     }
     
     #fotkum div img {
+        margin-bottom: 2%;
+    }
+}
+
+/*mobile*/
+@media screen and (max-width: 766px) {
+    body{
+        background-image: url(bghp.jpg);
+        color: aliceblue;
+        font-family: 'Times New Roman', Times, serif;
+    }
+   
+    .myDiv{
+        text-align: center;
+    }
+
+    .jadwal {
+        background-color: #310558;
+        display: block;
+        width: 300px;
+        height: 240px;
+        margin-bottom: 2%;
+    }
+
+    table {
+        background-color: #020990;
+    }
+
+    #list-siswa {
+        background-color: #139397;
+        width: 300px;
+        height: 985px;
+        margin-bottom: 2%;
+    }
+
+    #list-siswa div {
+        background-color: #0f8c97;
+        display: block;
+        height: auto;
+        width: 210px;
+        margin-top: 4%;
+    }
+
+    .jadwal-piket{
+        background-color: #1c7d85;
+        width: 300px;
+        height: 1130px;
+    }
+
+    #piket div {
+        background-color: #20585d;
+        display: block;
+        height: 190px;
+        margin-top: 4%;
+
+    }
+
+
+    .video{
+        background-color: #1c7d85;
+        width: 300px;
+        height: auto;
+    }
+
+    #kumpulan div video{
+        display: block;
+        width: 250px;
+        height: auto;
+    }
+
+    .foto {
+        background-color: #1c7d85;
+        width: 300px;
+        height: auto;
+    }
+
+    #fotkum div img{
+        width: 250px;
+        height: auto;
         margin-bottom: 2%;
     }
 }
